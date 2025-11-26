@@ -1,7 +1,7 @@
 3. ##**EX.NO:
 ** 3  EXPERIMENTAL VERIFICATION OF INTEGRATOR AND DIFFERENTIATOR USING OP-AMP 
             
-**DATE:**  
+**DATE:** 09/09/2025 
              3A INTEGRATOR
 ---
 
@@ -19,8 +19,8 @@ To design and test the performance of integrator and differentiator circuits usi
 | 3 | Dual RPS | (0 – 30) V | 1 |
 | 4 | Op-Amp | µA741 | 1 |
 | 5 | Bread Board | — | 1 |
-| 6 | Resistors | 1K,10K,100K  | 2 |
-| 7 | capacitors | 0.1µF,0.01µF | 1 |
+| 6 | Resistors | 15k 1.5k  | 2 |
+| 7 | capacitors | 0.1µF| 1 |
 | 8 | Connecting wires and probes | As required | — |
 
 ---
@@ -38,6 +38,7 @@ CIRCUIT DIAGRAM
 ## CIRCUIT DIAGRAM
 <img width="698" height="423" alt="image" src="https://github.com/user-attachments/assets/f007b349-f96e-42d3-acd3-a37119fc16fc" />
 
+![WhatsApp Image 2025-11-26 at 21 05 19_8d59d7fe](https://github.com/user-attachments/assets/8e821771-9bd8-4f95-b294-3968d6467689)
 
 ## MODEL GRAPH
 <img width="556" height="380" alt="image" src="https://github.com/user-attachments/assets/caa7461c-69f7-4636-8e31-eea6db6efbb5" />
@@ -52,6 +53,9 @@ To obtain the output of an Integrator circuit with component values R1Cf = 0.1ms
 We know the frequency at which the gain is 0 dB, fb = 1 / (2π R1 Cf) Therefore fb = 	 Since fb = 10 fa , and also the gain limiting frequency fa = 1 / (2π Rf Cf)
 We get , R1 =	and hence Rf = 	
 
+![WhatsApp Image 2025-11-26 at 21 02 06_a7b95560](https://github.com/user-attachments/assets/69656228-ad33-41f4-a73a-8506f49cb7d7)
+
+
 ## PROCEDURE
 
 1.	Connections are given as per the circuit diagram
@@ -60,20 +64,19 @@ We get , R1 =	and hence Rf =
 4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 
 
-## TABULATION
-| Waveform Type | **Input Amplitude (V)** | **Input Time Period (ms)** | **Input Frequency (Hz)** | **Output Amplitude (V)** | **Output Time Period (ms)** | **Output Frequency (Hz)** |
-|----------------|--------------------------|-----------------------------|---------------------------|---------------------------|------------------------------|----------------------------|
-| Sine Wave      |                          |                             |                           |                           |                              |                            |
-| Square Wave    |                          |                             |                           |                           |                              |                            |
+## TABULATION                              
 		
+![WhatsApp Image 2025-11-26 at 21 02 41_7ebca6b5](https://github.com/user-attachments/assets/214a1aab-e2f9-4b9e-9884-f8e05d847606)
 
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-26 at 21 02 22_f4b07e0a](https://github.com/user-attachments/assets/21e7fb78-1a4e-4f08-bdad-cf9310163f50)
 
+![WhatsApp Image 2025-11-26 at 21 02 55_1ace6dc7](https://github.com/user-attachments/assets/011be2af-2c2f-4d32-876c-3937b96f3f51)
 
 ---
-**DATE:**  
+**DATE:** 16/09/2025 
              3 B DIFFERENTIATOR
 ---
 
@@ -91,8 +94,8 @@ To design and test the performance of integrator and differentiator circuits usi
 | 3 | Dual RPS | (0 – 30) V | 1 |
 | 4 | Op-Amp | µA741 | 1 |
 | 5 | Bread Board | — | 1 |
-| 6 | Resistors | 1K,10K,100K  | 2 |
-| 7 | capacitors | 0.1µF,0.01µF | 1 |
+| 6 | Resistors | 15k  1.5k | 2 |
+| 7 | capacitors | 0.001µF,0.01µF | 1 |
 | 8 | Connecting wires and probes | As required | — |
 
 ---
@@ -111,6 +114,7 @@ The differentiator is most commonly used in wave shaping circuits to detect high
 ## CIRCUIT DIAGRAM
 <img width="760" height="414" alt="image" src="https://github.com/user-attachments/assets/6ee3caf5-d5de-4c38-8ebe-7ff5add6c9cd" />
 
+![WhatsApp Image 2025-11-26 at 21 03 11_d312573c](https://github.com/user-attachments/assets/972f565c-e993-4293-926c-68904f0cd6d5)
 
 
 ## MODEL GRAPH
@@ -140,6 +144,7 @@ Now choose fb = 10fa = 1 / 2πR1C1 Therefore, R1 = 1 / 2π(103)(10-7)
 We get, CF = (1.59*103*10-7) / 15.9*103
 = 0.01μF
 
+![WhatsApp Image 2025-11-26 at 21 03 25_45f7af4e](https://github.com/user-attachments/assets/74086b84-1880-42e7-85da-f289436ba87f)
 
 ## PROCEDURE
 
@@ -149,13 +154,16 @@ We get, CF = (1.59*103*10-7) / 15.9*103
 4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 
  ## TABULATION
-| Waveform Type | **Input Amplitude (V)** | **Input Time Period (ms)** | **Input Frequency (Hz)** | **Output Amplitude (V)** | **Output Time Period (ms)** | **Output Frequency (Hz)** |
-|----------------|--------------------------|-----------------------------|---------------------------|---------------------------|------------------------------|----------------------------|
-| Sine Wave      |                          |                             |                           |                           |                              |                            |
-| Square Wave    |                          |                             |                           |                           |                              |                            |
+ 
+ ![WhatsApp Image 2025-11-26 at 21 03 53_db2099fd](https://github.com/user-attachments/assets/3d4f33fd-7070-401d-b3ab-6a63ff94adb6)
+
 		
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+
+![WhatsApp Image 2025-11-26 at 21 03 41_31d73b48](https://github.com/user-attachments/assets/a2e99cef-b41b-4fd1-b63e-404133463c95)
+
+![WhatsApp Image 2025-11-26 at 21 02 55_f6fcf74f](https://github.com/user-attachments/assets/c9ba456d-4788-4fe5-958a-0678aa166103)
 
 ---
 
