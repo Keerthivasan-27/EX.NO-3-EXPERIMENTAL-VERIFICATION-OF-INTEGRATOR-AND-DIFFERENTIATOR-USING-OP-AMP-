@@ -36,7 +36,6 @@ T ≥ Rf Cf
 The integrator is most commonly used in analog computers and ADC and signal-wave shaping circuits.
 CIRCUIT DIAGRAM
 ## CIRCUIT DIAGRAM
-<img width="698" height="423" alt="image" src="https://github.com/user-attachments/assets/f007b349-f96e-42d3-acd3-a37119fc16fc" />
 
 ![WhatsApp Image 2025-11-26 at 21 05 19_8d59d7fe](https://github.com/user-attachments/assets/8e821771-9bd8-4f95-b294-3968d6467689)
 
@@ -112,7 +111,6 @@ Here the negative sign indicates that the output voltage is 180 0 out of phase w
 The differentiator is most commonly used in wave shaping circuits to detect high frequency components in an input signal and also as a rate–of–change detector in FM modulators.
 
 ## CIRCUIT DIAGRAM
-<img width="760" height="414" alt="image" src="https://github.com/user-attachments/assets/6ee3caf5-d5de-4c38-8ebe-7ff5add6c9cd" />
 
 ![WhatsApp Image 2025-11-26 at 21 03 11_d312573c](https://github.com/user-attachments/assets/972f565c-e993-4293-926c-68904f0cd6d5)
 
